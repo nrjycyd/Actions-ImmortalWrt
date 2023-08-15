@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build immortalwrt
+name: Build ImmortalWrt
 
 on:
   repository_dispatch:
@@ -94,5 +94,5 @@ jobs:
     - name : Upload firmware
       uses: actions/upload-artifact@main
       with:
-        name: immortalwrt_firmware
+        name: ImmortalWrt_firmware
         path: openwrt/bin
