@@ -94,5 +94,5 @@ jobs:
     - name : Upload firmware
       uses: actions/upload-artifact@main
       with:
-        name: OpenWrt_firmware
+        name: immortalwrt_firmware
         path: openwrt/bin
